@@ -1,0 +1,101 @@
+/* Reset + smooth design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s ease;
+    background-color: #f3f3f3;
+}
+
+/* Main card */
+.main {
+    background-color: white;
+    width: 350px;
+    padding: 30px 35px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Title */
+.main h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Labels and Inputs */
+.main p {
+    text-align: left;
+    margin: 12px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #66BB6A;
+}
+
+/* Calculate button */
+button {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #66BB6A;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #57a961;
+  transform: scale(1.02);
+}
+
+/* BMI result */
+#results {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Guide section */
+.main h3 {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #333;
+}
+
+.main p {
+    margin: 6px 0;
+    color: #555;
+    font-size: 15px;
+}
