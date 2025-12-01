@@ -1,5 +1,4 @@
 const form=document.querySelector('form')
-//const weight=parseInt(document.querySelector('#weight')) this will give u empty value ad we want it at event not on page loading
 let BMI;
 form.addEventListener('submit',(e)=>{
     e.preventDefault()
@@ -31,4 +30,5 @@ form.addEventListener('submit',(e)=>{
         results.innerHTML=`Your BMI is ${BMI} and you are ${msg}`
     }
     
+
 })
